@@ -1,14 +1,15 @@
 import React from 'react'
 import logo from '../images/logoBig.png'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div className='navbar'>
       <img src={logo} alt="logo" className='logo' />
       <ul>
-        <li>ACCUEIL</li>
-        <li>AGENCE</li>
-        <li>RÉALISATION</li>
+        <Link to='/'><li>ACCUEIL</li></Link>
+        <Link to="/agence"><li>AGENCE</li></Link>
+        <Link to='realisations'><li>RÉALISATION</li></Link>
         <li>BLOG</li>
         <li id='li'>CONTACTEZ-NOUS</li>
       </ul>

@@ -1,7 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Teko:wght@400;600&display=swap');
 
+Link {
+  text-decoration: none;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 button {
   outline: none;
@@ -31,6 +38,7 @@ h3 , h4 , h5{
   color: #fcc42e;
   font-weight: 450;
   font-size: 28px; 
+  font-family: 'Roboto', sans-serif;
 }
 
 .specialTitle::before{
@@ -78,13 +86,15 @@ li {
 
 #li {
 margin: 0;
+white-space: nowrap;
 
 }
 
 .navbarBtn {
   height: 48px;
-  width: 199px;
-  font-size: 28px ;
+  width: 10.36%;
+  font-size: 1.5vw ;
+  white-space: nowrap;
   margin-left:  25.89%;
 }
 
@@ -92,7 +102,7 @@ margin: 0;
 margin-left: 7.29%;
 margin-right: 3.07% ;
 width: 10.47%;
-height: 66px;
+
 }
 
 /*footer styling*/ 
@@ -409,7 +419,6 @@ margin-left: 8.41%;
 
 .check {
   height: 30px;
-
 }
 
 
@@ -431,8 +440,6 @@ margin-left: 8.41%;
 .sone {
 margin-left: 5%;
 }
-
-
 
 .templateSlider::-webkit-scrollbar {
   background-color: #D7CFFA;
@@ -558,4 +565,88 @@ background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% 
       from { opacity: 1; }
       to { opacity: 0.5; }
   }
+
   
+ .contact {
+   display: flex;
+   align-items: center;
+   border: 4px solid #E3D9EA;
+   border-radius: 45px;
+   margin-left: 7.29%;
+   margin-right: 7.29%;
+   margin-top: 200px;
+   height: 624px;
+ }
+
+ .contactText {
+  width: 65.8%;
+  margin-left: 5.12%;
+ }
+
+ .contactText h4{
+   font-size: 5.8vh;
+ }
+
+ .contactText .specialTitle {
+   margin-bottom: 32px;
+   font-size: 3vh;
+ }
+
+ .contactText p {
+   width: 40%;
+   font-size: 2vh;
+   margin-top: 20px;
+ }
+
+ .contactImg {
+   max-height: 489px;
+   width: 44.02%;
+   margin-right: 5.12%;
+ }
+
+ .contactBtn {
+  height: 56px;
+  width:  21.79%;
+  font-size: 1.4vw;
+  margin-top: 90px;
+ }
+
+ .nosRealisations {
+  display: flex;
+  align-items: center;
+   margin-top:100px;
+   height: 320px;
+   background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
+   background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
+ }
+
+ .realContainer {
+   display: flex;
+   align-items: center;
+   width:50.32%;
+   margin-left:  24.84%;
+   margin-right:  24.84%;
+
+ }
+
+ .realImg {
+  width: 34.88%;
+  max-height: 262px;
+  margin-right: 8.07%;
+ }
+
+ .realisationsText {
+  width: 59.31%;
+ }
+
+ .realisationsText p {
+   margin-top: 28px;
+   height: 80px;
+   font-size: 1.02vw;
+}
+
+.realisationsText h4 {
+   width: 51.83%;
+   font-size: 2.8vw;
+   white-space: nowrap;
+}
