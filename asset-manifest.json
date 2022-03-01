@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/madImpact-task1/static/css/main.8138b188.css",
-    "main.js": "/madImpact-task1/static/js/main.049a9be4.js",
+    "main.css": "/madImpact-task1/static/css/main.9b445920.css",
+    "main.js": "/madImpact-task1/static/js/main.52666908.js",
     "static/media/introSmall.png": "/madImpact-task1/static/media/introSmall.ee94e003fa64bb417e68.png",
     "static/media/illustrationSmall.png": "/madImpact-task1/static/media/illustrationSmall.067fab8dfe556e350ef3.png",
     "static/media/erp.png": "/madImpact-task1/static/media/erp.851055b6eb0b5911361b.png",
+    "static/media/pubImg.png": "/madImpact-task1/static/media/pubImg.911d34b6f9466f71a0fa.png",
     "static/media/introAgence.png": "/madImpact-task1/static/media/introAgence.e0efd3cf19c7539ce659.png",
     "static/media/tel1.png": "/madImpact-task1/static/media/tel1.3f4934bd7f867390f3c3.png",
     "static/media/pc2.png": "/madImpact-task1/static/media/pc2.c36085109e7be57434b9.png",
@@ -12,6 +13,7 @@
     "static/media/pc4.png": "/madImpact-task1/static/media/pc4.214c189e57b5d7900087.png",
     "static/media/pc3.png": "/madImpact-task1/static/media/pc3.4b6adab181f86afa0a1d.png",
     "static/media/pc.png": "/madImpact-task1/static/media/pc.129f7abc9af6cfe1e259.png",
+    "static/media/missionimg.png": "/madImpact-task1/static/media/missionimg.0ac8d5a8ff7c258d0d77.png",
     "static/media/tel2.png": "/madImpact-task1/static/media/tel2.b5798afc621e1957214b.png",
     "static/media/guyLittle.png": "/madImpact-task1/static/media/guyLittle.e0b26b840fedf0450c1c.png",
     "static/media/tab.png": "/madImpact-task1/static/media/tab.6c0e7163635da9ca8788.png",
@@ -19,7 +21,12 @@
     "static/media/circles.png": "/madImpact-task1/static/media/circles.deb5e298b1bef89a9b08.png",
     "static/media/avataaars4.png": "/madImpact-task1/static/media/avataaars4.c355b00d7b428cb563fe.png",
     "static/media/avataaars2.png": "/madImpact-task1/static/media/avataaars2.0f2dcc80b6c7c5dd9c09.png",
+    "static/media/84.png": "/madImpact-task1/static/media/84.973ea0ed072fa75874ff.png",
+    "static/media/83.png": "/madImpact-task1/static/media/83.0bd935c2083bc9821bee.png",
+    "static/media/89.png": "/madImpact-task1/static/media/89.e7515bf8c3f366934923.png",
     "static/media/avataaars.png": "/madImpact-task1/static/media/avataaars.f80351cfce5416e4b1f4.png",
+    "static/media/87.png": "/madImpact-task1/static/media/87.c75a4aaeb197c4065fa0.png",
+    "static/media/81.png": "/madImpact-task1/static/media/81.cafaf49578cb38aebcb1.png",
     "static/media/avataaars1.png": "/madImpact-task1/static/media/avataaars1.2b1fcb251acee1930fa2.png",
     "static/media/crm.png": "/madImpact-task1/static/media/crm.66067a37863467ee85a7.png",
     "static/media/rezFoodSmall.png": "/madImpact-task1/static/media/rezFoodSmall.bf69eac0e8378dc005f0.png",
@@ -28,17 +35,20 @@
     "static/media/web.png": "/madImpact-task1/static/media/web.257ee9afc963eaf0c267.png",
     "static/media/wokSmall.png": "/madImpact-task1/static/media/wokSmall.6c6296d0da1b7e756337.png",
     "static/media/maintenance.png": "/madImpact-task1/static/media/maintenance.6b65c5688ce63cb4534c.png",
+    "static/media/cible.png": "/madImpact-task1/static/media/cible.69a25932310fa9f0d08e.png",
     "static/media/newDealSmall.png": "/madImpact-task1/static/media/newDealSmall.6c71604f7dc3e48644e1.png",
     "static/media/logoBig.png": "/madImpact-task1/static/media/logoBig.49f02fe4450bf8c6cb06.png",
     "static/media/design.png": "/madImpact-task1/static/media/design.2576d9d45c7ff7beb19e.png",
     "static/media/tel.png": "/madImpact-task1/static/media/tel.1c9c24dd72cf5b3cf1af.png",
     "static/media/elenaSmall.png": "/madImpact-task1/static/media/elenaSmall.8a1c8ba75525c036e413.png",
+    "static/media/arbre.png": "/madImpact-task1/static/media/arbre.02a957bc86057a3d6d97.png",
+    "static/media/b4.png": "/madImpact-task1/static/media/b4.287c6fb672f2b385dca4.png",
     "index.html": "/madImpact-task1/index.html",
-    "main.8138b188.css.map": "/madImpact-task1/static/css/main.8138b188.css.map",
-    "main.049a9be4.js.map": "/madImpact-task1/static/js/main.049a9be4.js.map"
+    "main.9b445920.css.map": "/madImpact-task1/static/css/main.9b445920.css.map",
+    "main.52666908.js.map": "/madImpact-task1/static/js/main.52666908.js.map"
   },
   "entrypoints": [
-    "static/css/main.8138b188.css",
-    "static/js/main.049a9be4.js"
+    "static/css/main.9b445920.css",
+    "static/js/main.52666908.js"
   ]
 }
