@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/madImpact-task1/static/css/main.2ddbf42c.css",
-    "main.js": "/madImpact-task1/static/js/main.73ce334d.js",
+    "main.css": "/madImpact-task1/static/css/main.8138b188.css",
+    "main.js": "/madImpact-task1/static/js/main.049a9be4.js",
     "static/media/introSmall.png": "/madImpact-task1/static/media/introSmall.ee94e003fa64bb417e68.png",
     "static/media/illustrationSmall.png": "/madImpact-task1/static/media/illustrationSmall.067fab8dfe556e350ef3.png",
     "static/media/erp.png": "/madImpact-task1/static/media/erp.851055b6eb0b5911361b.png",
+    "static/media/introAgence.png": "/madImpact-task1/static/media/introAgence.e0efd3cf19c7539ce659.png",
     "static/media/tel1.png": "/madImpact-task1/static/media/tel1.3f4934bd7f867390f3c3.png",
     "static/media/pc2.png": "/madImpact-task1/static/media/pc2.c36085109e7be57434b9.png",
     "static/media/world-bg.png": "/madImpact-task1/static/media/world-bg.d6e2c243a6b0b07b0e3b.png",
@@ -33,11 +34,11 @@
     "static/media/tel.png": "/madImpact-task1/static/media/tel.1c9c24dd72cf5b3cf1af.png",
     "static/media/elenaSmall.png": "/madImpact-task1/static/media/elenaSmall.8a1c8ba75525c036e413.png",
     "index.html": "/madImpact-task1/index.html",
-    "main.2ddbf42c.css.map": "/madImpact-task1/static/css/main.2ddbf42c.css.map",
-    "main.73ce334d.js.map": "/madImpact-task1/static/js/main.73ce334d.js.map"
+    "main.8138b188.css.map": "/madImpact-task1/static/css/main.8138b188.css.map",
+    "main.049a9be4.js.map": "/madImpact-task1/static/js/main.049a9be4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ddbf42c.css",
-    "static/js/main.73ce334d.js"
+    "static/css/main.8138b188.css",
+    "static/js/main.049a9be4.js"
   ]
 }
