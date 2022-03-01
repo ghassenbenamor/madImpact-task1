@@ -2,11 +2,10 @@ import React from 'react'
 
 import { useState } from 'react';
 
-import wajdi from '../images/81.png';
+import wajdi from '../images/86.png';
 import lobna from '../images/83.png';
 import elie from '../images/87.png';
 import malak from '../images/84.png';
-import juliette from '../images/89.png';
 import go from '../images/go.png';
 import back from '../images/back.png'
 
@@ -55,7 +54,7 @@ const Team = () => {
                                     </div>}
                             </div>
                             <div className='member'>
-                                <img src={juliette} className="member-avatar" alt="" />
+                                <img src={lobna} className="member-avatar" alt="" />
                                 <p className="name">JULIETTE</p>
                                 <p className="role">Business developper</p>
                             </div>
@@ -110,7 +109,7 @@ const Team = () => {
                                 <p className="role">Prestashop developper</p>
                             </div>
                             <div className='member' on>
-                                <img src={juliette} className="member-avatar" alt="" />
+                                <img src={malak} className="member-avatar" alt="" />
                                 <p className="name">ANNA</p>
                                 <p className="role">Stagaire UX\UI</p>
                             </div>
