@@ -574,8 +574,9 @@ background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% 
    border-radius: 45px;
    margin-left: 7.29%;
    margin-right: 7.29%;
-   margin-top: 200px;
+   margin-top: 160px;
    height: 624px;
+   width:  87.1%;
  }
 
  .contactText {
@@ -704,4 +705,261 @@ background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% 
 
 .line p {
    margin-left: 7.5px;
+}
+
+.team {
+  margin: 70px 10% 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  
+}
+
+.team-members {
+  display: flex;
+  width: 100%;
+}
+
+.members {
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+}
+
+.member {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-avatar {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: -4px;
+}
+
+.arrow {
+  height: 25%;
+  align-self: center;
+  cursor: pointer;
+}
+
+.team h4 {
+  font-size: 2.2vw;
+  margin-top: 26px;
+}
+
+.hoverable {
+  width: 50%;
+  background-color: #fcc42e;
+  border-radius: 5%;
+}
+
+.hoverable h6,
+.hoverable p {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+
+/*pub css*/
+
+.pub {
+  background: linear-gradient(0deg, rgba(219, 208, 254, 1) 22%, rgba(245, 243, 255, 1) 64%);
+  height: 504px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.pub-text h4 {
+font-size: 2vw;
+}
+.pub-container {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
+
+.pub-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.pub-btn {
+  height: 56px;
+  width: 70%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  background-color: #fcc42e;
+  margin-top: 5%;
+  font-size: 1vw;
+}
+
+.pubImg {
+  height: 380px;
+}
+
+.cloud1 {
+  position: relative;
+  top: 70px;
+}
+
+.cloud2 {
+  position: relative;
+  bottom: 120px;
+  width: 70px;
+}
+
+.cloud3 {
+  position: relative;
+  bottom: 60px;
+  left: 50px;
+  width: 100px;
+}
+
+
+/*agency css*/
+
+.partTwo {
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 7.29%;
+}
+
+.box {
+  width: 18.33% ;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 4px #e3d9ea;
+  border-radius: 20px;
+  margin-right: 4.01%;
+}
+
+
+
+.box p {
+  font-weight: 600;
+}
+
+.agencyCheck {
+  display: flex;
+}
+
+.partOne {
+  display: flex;
+  margin-top: 196px;
+}
+
+.agencyText {
+  margin-left: 7.29%;
+  width: 20.73%;
+  margin-right: 11.61% ;
+}
+
+.agencyText h4 {
+  width: 90.2%;
+  font-size: 2.35vw;
+  margin-bottom: 10px;
+  margin-top: 32px;
+}
+
+.texto {
+  width: 100%;
+  font-size: 1vw;
+  margin-bottom: 32px;
+}
+
+.agencyCheck p {
+  font-size: 1vw;
+  margin-left: 16px;
+}
+
+.agencyMenu {
+  display: flex;
+  margin-right: 7.29%;
+   width: 53.28%;
+   height: 744px;
+}
+
+
+.menuBar {
+  width: 25.9%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.menuBtn{
+  height: 160px;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5vw;
+  background-color: white;
+  border-left: 4px solid #D7CFFA;
+}
+.containerPlace {
+  width: 75.4%;
+  border: 4px solid #D7CFFA;
+  border-radius: 0px 45px 45px 0px;
+}
+
+.oimg {
+  margin-right: 10px;
+}
+
+.iilg {
+  margin-left: 31px;
+}
+
+.menuBtn:focus {
+  background: transparent linear-gradient(91deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(91deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
+  border-radius: 56px 0px 0px 56px;
+  border: none;
+}
+
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.innerP {
+  margin-bottom: 180px;
+  width:  54.62%;
+  margin-top: 80px;
+  font-size: 1.2vw;
+}
+
+#bg , .dude   {
+  width: 54.62%;
+  max-height: 260px;
+}
+
+.specialInner {
+  font-size: 1vw;
 }
