@@ -1,22 +1,18 @@
 import React from 'react'
 import img from '../images/illustrationSmall.png'
 const About = () => {
-return (
+    return (
 
-    <div class="about">
-        
-        <img src={img} alt="" class="about-image"/>
-        
-        <div class="about-text">
-        <p class="specialTitle" > Â propos</p>
-        <h4 style={{fontWeight:"bold"}}>Notre créativité est partout </h4> 
-        <p >Lorem, ipsum dolor sit amet consectetur 
-            adipisicing elit. Sint autem ratione minima 
-            accusamus nam dignis suscit dolore magna</p>
-            <button class="about-button">Voir plus</button>
+        <div class="about">
+            <div className='aboutImg'><img src={img} alt="" /></div>
+            <div class="abouText">
+                <p class="specialTitle" > Â propos</p>
+                <h4 style={{ fontWeight: "bold" }}>Notre créativité est partout </h4>
+                <p className='aboutPara'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                <button class="aboutButton">Voir plus</button>
+            </div>
         </div>
-    </div>
-  )       
-}       
-    
-export default About ;
+    )
+}
+
+export default About;

@@ -97,7 +97,7 @@ const Team = () => {
                 {value === 1 &&
 
                     <div className='team-members'>
-                        <img src={back} alt="back" className='arrow' onClick={backClickHandler} />
+                        <img src={back} alt="back" className='arrowBack' onClick={backClickHandler} />
                         <div className='members'>
                             <div className='member'>
                                 <img src={wajdi} className="member-avatar" alt="" />

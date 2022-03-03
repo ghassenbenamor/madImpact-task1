@@ -22,137 +22,136 @@ const References = () => {
                     <button className="refBtns" onClick={() => setSelected("erp")}>ERP / CRM </button>
                 </div>
                 <div className="refTemplatesContainer">
-                    { selected === "tout" &&
-                        <div className='template'> 
-                        <div className="templateText">
-                            <h4>Toutes nos références</h4>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                    {selected === "tout" &&
+                        <div className='template'>
+                            <div className="templateText">
+                                <h4>Toutes nos références</h4>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>sed diam nonumy</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Eirmod tempor invidunt ut labore</p>
+                                </div>
                             </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>sed diam nonumy</p>
+                            <div className="templateSlider">
+
+                                <div className='sliderImg sone'><img src={tel1} alt="" /></div>
+                                <div className='sliderImg'><img src={pc} alt="" /></div>
+                                <div className='sliderImg'><img src={tel2} alt="" /></div>
+                                <div className='sliderImg'><img src={tab} alt="" /></div>
+                                <div className='sliderImg'><img src={tel1} alt="" /></div>
+                                <div className='sliderImg'><img src={pc2} alt="" /></div>
+                                <div className='sliderImg'><img src={tel2} alt="" /></div>                            </div>
+                        </div>
+                    }
+                    {selected === "mobile" &&
+                        <div className='template'>
+                            <div className="templateText">
+                                <h4>Applications Mobile Natif</h4>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>sed diam nonumy</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Eirmod tempor invidunt ut labore</p>
+                                </div>
                             </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check' />
-                                <p>Eirmod tempor invidunt ut labore</p>
+                            <div className="templateSlider">
+                                <div className='sliderImg sone'><img src={tel1} alt="" /></div>
+                                <div className='sliderImg'><img src={tel2} alt="" /></div>
+                                <div className='sliderImg'><img src={tel1} alt="" /></div>
+                                <div className='sliderImg'><img src={tel2} alt="" /></div>
+                                <div className='sliderImg'><img src={tel1} alt="" /></div>
+                                <div className='sliderImg'><img src={tel2} alt="" /></div>
+                                <div className='sliderImg'><img src={tel1} alt="" /></div>
                             </div>
+                        </div>
+                    }
+                    {selected === "web" &&
+                        <div className='template'>
+                            <div className="templateText">
+                                <h4>Développement web sur mesure</h4>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>sed diam nonumy</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Eirmod tempor invidunt ut labore</p>
+                                </div>
+                            </div>
+                            <div className="templateSlider">
+                                <div className='sliderImg sone'><img src={pc2} alt="" /></div>
+                                <div className='sliderImg '><img src={pc} alt="" /></div>
+                                <div className='sliderImg'><img src={pc3} alt="" /></div>
+                                <div className='sliderImg'><img src={pc4} alt="" /></div>
+
+                            </div>
+                        </div>
+                    }
+                    {selected === "erp" &&
+                        <div className='template'>
+                            <div className="templateText">
+                                <h4>ERP / CRM</h4>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>sed diam nonumy</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Eirmod tempor invidunt ut labore</p>
+                                </div>
+                            </div>
+                            <div className="templateSlider">
+                                <div className='sliderImg sone'><img src={tab} alt="" /></div>
+                                <div className='sliderImg'><img src={tab} alt="" /></div>
+                                <div className='sliderImg'><img src={tab} alt="" /></div>
+                                <div className='sliderImg'><img src={tab} alt="" /></div>
+                            </div>
+                        </div>
+                    }
+                    {selected === "ui" &&
+                        <div className='template'>
+                            <div className="templateText">
+                                <h4>UI / UX</h4>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>sed diam nonumy</p>
+                                </div>
+                                <div className='textCheck'>
+                                    <img src={check} alt="check" className='check' />
+                                    <p>Eirmod tempor invidunt ut labore</p>
+                                </div>
                             </div>
                             <div className="templateSlider">
                                 <img src={tel1} alt="" className='sliderImg sone' />
-                                <img src={pc} alt="" className='sliderImg' />
                                 <img src={tel2} alt="" className='sliderImg' />
-                                <img src={tab} alt=""  className='sliderImg'/>
-                                <img src={tel1} alt="" className='sliderImg' />
-                                <img src={pc2} alt=""  className='sliderImg'/>
-                                <img src={tel2} alt="" className='sliderImg'/>
-                            </div>
-                        </div>
-                    }
-                    { selected === "mobile" &&
-                        <div className='template'> 
-                        <div className="templateText">
-                            <h4>Applications Mobile Natif</h4>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>sed diam nonumy</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check' />
-                                <p>Eirmod tempor invidunt ut labore</p>
-                            </div>
-                            </div>
-                            <div className="templateSlider">
-                                <img src={tel1} alt="" className='sliderImg sone' />
                                 <img src={tel2} alt="" className='sliderImg' />
                                 <img src={tel1} alt="" className='sliderImg' />
-                                <img src={tel2} alt=""  className='sliderImg'/>
-                                <img src={tel1} alt="" className='sliderImg' />
-                                <img src={tel2} alt=""  className='sliderImg'/>
-                                <img src={tel1} alt="" className='sliderImg'/>
-                            </div>
-                        </div>
-                    }
-                    { selected === "web" &&
-                        <div className='template'> 
-                        <div className="templateText">
-                            <h4>Développement web sur mesure</h4>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>sed diam nonumy</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check' />
-                                <p>Eirmod tempor invidunt ut labore</p>
-                            </div>
-                            </div>
-                            <div className="templateSlider">
-                                <img src={pc} alt="" className='sliderImg sone' />
-                                <img src={pc2} alt="" className='sliderImg' />
-                                <img src={pc3} alt="" className='sliderImg' />
-                                <img src={pc4} alt=""  className='sliderImg'/>
-                                
-                            </div>
-                        </div>
-                    }
-                    { selected === "erp" &&
-                        <div className='template'> 
-                        <div className="templateText">
-                            <h4>ERP / CRM</h4>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>sed diam nonumy</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check' />
-                                <p>Eirmod tempor invidunt ut labore</p>
-                            </div>
-                            </div>
-                            <div className="templateSlider">
-                                <img src={tab} alt="" className='sliderImg sone' />
-                                <img src={tab} alt="" className='sliderImg' />
-                                <img src={tab} alt="" className='sliderImg' />
-                                <img src={tab} alt=""  className='sliderImg'/>
-                                
-                            </div>
-                        </div>
-                    }
-                    { selected === "ui" &&
-                        <div className='template'> 
-                        <div className="templateText">
-                            <h4>UI / UX</h4>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check'/>
-                                <p>sed diam nonumy</p>
-                            </div>
-                            <div className='textCheck'>
-                                <img src={check} alt="check" className='check' />
-                                <p>Eirmod tempor invidunt ut labore</p>
-                            </div>
-                            </div>
-                            <div className="templateSlider">
-                                <img src={tel1} alt="" className='sliderImg sone' />
-                                <img src={tel2} alt="" className='sliderImg' />
-                                <img src={tel2} alt="" className='sliderImg' />
-                                <img src={tel1} alt=""  className='sliderImg'/>
-                                
+
                             </div>
                         </div>
                     }

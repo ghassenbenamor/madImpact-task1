@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='navbar'>
-      <img src={logo} alt="logo" className='logo' />
+     <div className="logo"><img src={logo} alt="logo"/></div> 
       <ul>
         <Link exact to='/madImpact-task1/'><li>ACCUEIL</li></Link>
         <Link to="/agence"><li>AGENCE</li></Link>

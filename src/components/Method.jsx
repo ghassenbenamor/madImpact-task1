@@ -3,10 +3,10 @@ import circles from '../images/circles.png'
 const Method = () => {
     return (
         <div className='method'>
-            <p className="specialTitle" style={{ textAlign: "center",marginTop:"159px" }}>Notre méthode</p>
+            <p className="specialTitle" style={{ textAlign: "center",marginTop:"5%" }}>Notre méthode</p>
             <h4 id='methodIntro'>Comment nous procédons</h4>
             <div className="methodContainer">
-                <img src={circles} alt="circles" className='circles' />
+               <div className='circles'><img src={circles} alt="circles" /></div> 
 
                 <div className='methodItem item1'>
                     <h5><span>1.</span>CONTACT</h5>

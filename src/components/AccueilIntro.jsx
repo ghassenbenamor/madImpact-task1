@@ -7,16 +7,20 @@ const AccueilIntro = () => {
       <div className="introContainer">
         <div className="acceuilIntroText">
           <h3 id='introTitle'>Devenez la meilleure <br /> version digitale de <br />vous-même !</h3>
-          <p style={{fontSize:'20px'}}>Incredible luctus nec ullamcorper mattis pulvinar dapibus leo</p>
+          <p>Incredible luctus nec ullamcorper mattis pulvinar dapibus leo</p>
           <div className="acceuilIntroBtnPlay">
             <button className="acceuilIntroBtn">C'est parti</button>
             <div className="acceuilIntroPlay">
-              <img src={play} alt="play" className='play'/>
+              <div className="play">
+               <img src={play} alt="play"/> 
+              </div>
+              
               <p id='playVideo'>Play video</p>
             </div>
           </div>
         </div>
-        <img src={introImg} alt=""  className='introImg'/>
+        <div className="introImg"><img src={introImg} alt=""/></div>
+        
       </div>
     </div>
   )

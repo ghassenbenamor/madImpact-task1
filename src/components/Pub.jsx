@@ -13,7 +13,8 @@ const Pub = () => {
           <button className='pub-btn'>Vous verrez, c'est stimulant !</button>
         </div>
         <img src={cloud} alt="xloud" className="cloud3" />
-        <img src={pubImg} alt="pub" className="pubImg" />
+        <div className="pubImg" ><img src={pubImg} alt="pub" /></div>
+        
         <img src={cloud} alt="xloud" className="cloud4" />
       </div>
     </div>
