@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='navbar'>
      <div className="logo"><img src={logo} alt="logo"/></div> 
       <ul>
-        <Link exact to='/madImpact-task1/'><li>ACCUEIL</li></Link>
+        <Link exact to='/madImpact-task1-remake'><li>ACCUEIL</li></Link>
         <Link to="/agence"><li>AGENCE</li></Link>
         <Link to='realisations'><li>RÉALISATION</li></Link>
         <li>BLOG</li>
