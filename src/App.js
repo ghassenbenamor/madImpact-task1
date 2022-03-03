@@ -14,7 +14,7 @@ function App() {
     <div className='site'>
      <Navbar/>
      <Routes>
-     <Route exact path='/madImpact-task1-remake' element={<Acceuil/>} />
+     <Route exact path='/madImpact-task1/' element={<Acceuil/>} />
      <Route  path='/realisations' element={<Realisations/>} />
      <Route  path='/agence' element={<Agence/>} />
      </Routes>
