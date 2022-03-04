@@ -7,8 +7,11 @@ import pc from '../images/pc.png'
 import pc2 from '../images/pc2.png'
 import pc3 from '../images/pc3.png'
 import pc4 from '../images/pc4.png'
+import { FaCheck } from "react-icons/fa";
+
 
 const References = () => {
+    const iconStyles = {color:'#FCC32D'}
     const [selected, setSelected] = useState("tout")
     return (
         <div className='references'>
@@ -27,27 +30,32 @@ const References = () => {
                             <div className="templateText">
                                 <h4>Toutes nos références</h4>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                    <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                    <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>sed diam nonumy</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Eirmod tempor invidunt ut labore</p>
                                 </div>
                             </div>
                             <div className="templateSlider">
 
-                                <div className='sliderImg sone'><img src={tel1} alt="" /></div>
-                                <div className='sliderImg'><img src={pc} alt="" /></div>
-                                <div className='sliderImg'><img src={tel2} alt="" /></div>
-                                <div className='sliderImg'><img src={tab} alt="" /></div>
-                                <div className='sliderImg'><img src={tel1} alt="" /></div>
-                                <div className='sliderImg'><img src={pc2} alt="" /></div>
-                                <div className='sliderImg'><img src={tel2} alt="" /></div>                            </div>
+                               <img src={tel1} alt="" className='sliderImg sone' />     
+                                <img src={pc} alt=""  className='sliderImg' />
+                                <img src={tel2} alt=""  className='sliderImg' />
+                                <img src={tab} alt=""  className='sliderImg' />
+                                <img src={tel1} alt=""  className='sliderImg'/>
+                                <img src={pc2} alt=""  className='sliderImg'/>
+                                <img src={tel2} alt="" className='sliderImg' />  
+                                
+
+
+
+                         </div>
                         </div>
                     }
                     {selected === "mobile" &&
@@ -55,26 +63,26 @@ const References = () => {
                             <div className="templateText">
                                 <h4>Applications Mobile Natif</h4>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>sed diam nonumy</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Eirmod tempor invidunt ut labore</p>
                                 </div>
                             </div>
                             <div className="templateSlider">
-                                <div className='sliderImg sone'><img src={tel1} alt="" /></div>
-                                <div className='sliderImg'><img src={tel2} alt="" /></div>
-                                <div className='sliderImg'><img src={tel1} alt="" /></div>
-                                <div className='sliderImg'><img src={tel2} alt="" /></div>
-                                <div className='sliderImg'><img src={tel1} alt="" /></div>
-                                <div className='sliderImg'><img src={tel2} alt="" /></div>
-                                <div className='sliderImg'><img src={tel1} alt="" /></div>
+                                <img src={tel1} alt="" className='sliderImg sone' />
+                                <img src={tel2} alt="" className='sliderImg' />
+                                <img src={tel1} alt="" className='sliderImg' />
+                                <img src={tel2} alt="" className='sliderImg'/>
+                                <img src={tel1} alt="" className='sliderImg' />
+                                <img src={tel2} alt="" className='sliderImg'/>
+                                <img src={tel1} alt="" className='sliderImg'/>
                             </div>
                         </div>
                     }
@@ -83,24 +91,26 @@ const References = () => {
                             <div className="templateText">
                                 <h4>Développement web sur mesure</h4>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>sed diam nonumy</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Eirmod tempor invidunt ut labore</p>
                                 </div>
                             </div>
                             <div className="templateSlider">
-                                <div className='sliderImg sone'><img src={pc2} alt="" /></div>
-                                <div className='sliderImg '><img src={pc} alt="" /></div>
-                                <div className='sliderImg'><img src={pc3} alt="" /></div>
-                                <div className='sliderImg'><img src={pc4} alt="" /></div>
-
+                                <img src={pc2} alt="" className='sliderImg sone' />
+                               <img src={pc} alt="" className='sliderImg'/>
+                                <img src={pc3} alt="" className='sliderImg'/>
+                                <img src={pc4} alt="" className='sliderImg' />
+                                <img src={pc3} alt="" className='sliderImg'/>
+                                <img src={pc4} alt="" className='sliderImg' />
+                                
                             </div>
                         </div>
                     }
@@ -109,23 +119,25 @@ const References = () => {
                             <div className="templateText">
                                 <h4>ERP / CRM</h4>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>sed diam nonumy</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Eirmod tempor invidunt ut labore</p>
                                 </div>
                             </div>
                             <div className="templateSlider">
-                                <div className='sliderImg sone'><img src={tab} alt="" /></div>
-                                <div className='sliderImg'><img src={tab} alt="" /></div>
-                                <div className='sliderImg'><img src={tab} alt="" /></div>
-                                <div className='sliderImg'><img src={tab} alt="" /></div>
+                                <img src={tab} alt="" className='sliderImg sone'/>
+                                <img src={tab} alt="" className='sliderImg'/>
+                                <img src={tab} alt="" className='sliderImg'/>
+                                <img src={tab} alt="" className='sliderImg'/>
+                                <img src={tab} alt="" className='sliderImg'/>
+                                <img src={tab} alt="" className='sliderImg'/>
                             </div>
                         </div>
                     }
@@ -134,23 +146,26 @@ const References = () => {
                             <div className="templateText">
                                 <h4>UI / UX</h4>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>sed diam nonumy</p>
                                 </div>
                                 <div className='textCheck'>
-                                    <img src={check} alt="check" className='check' />
+                                     <h2><FaCheck style={iconStyles}  /></h2> 
                                     <p>Eirmod tempor invidunt ut labore</p>
                                 </div>
                             </div>
                             <div className="templateSlider">
-                                <img src={tel1} alt="" className='sliderImg sone' />
-                                <img src={tel2} alt="" className='sliderImg' />
-                                <img src={tel2} alt="" className='sliderImg' />
-                                <img src={tel1} alt="" className='sliderImg' />
+                            <img src={tel1} alt="" className='sliderImg sone'/>
+                            <img src={tel2} alt="" className='sliderImg'/>
+                            <img src={tel1} alt="" className='sliderImg'/>
+                            <img src={tel2} alt="" className='sliderImg'/>
+                            <img src={tel2} alt="" className='sliderImg'/>
+                            <img src={tel1} alt="" className='sliderImg'/>
+                            <img src={tel2} alt="" className='sliderImg'/>
 
                             </div>
                         </div>

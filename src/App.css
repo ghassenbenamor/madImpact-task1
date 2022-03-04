@@ -399,109 +399,124 @@ span {
   font-size: 3vw;
 }
 
-/*references styling (page d'accueil) */
+/*page d'accueil réferences*/
+
 
 .references {
-  margin: 0 7%;
-  
+  display:flex;
+  flex-direction: column;
+  margin-left: 7%;
+  margin-right: 7%;
+  width: 86%;
+
+}
+
+.references p {
+  font-size: 1.5vw;
+  margin-bottom: 2%;
 }
 
 
+.refContainer {
+  display: flex;
+  flex-direction: column;
+}
 
 .refMenuBar {
   display: flex;
-  
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
 }
 
 .refBtns {
-  width: 20%;
+  width: 17%;
   background-color: white;
+  border-top: 3px solid #D7CFFA;
   border-radius: 0;
-  font-size: 1.2vw;
-  border-top: 4px solid#D9CEFE;
-
+  font-size: 1.8vw;
+  font-weight: 500;
 }
-
-
 
 .refBtns:focus {
-  border-top: 0px;
-  border-radius: 45px 45px 0px 0px;
   background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
+  border-radius: 45px 45px 0px 0px;
+  opacity: 1;
+  border: none;
 }
 
-.refBtns:focus+.refTemplatesContainer {
-  border-radius: 100px;
-}
 
 .refTemplatesContainer {
-  border: 4px solid #D7CFFA;
-  border-radius: 0px 0px 45px 45px;
-  
-  width:100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  width: 99.5%;
+  border-radius: 0 0 45px 45px;
+  border: 3px solid #D7CFFA;  
 }
 
 .template {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  justify-content: space-between;
+ }
+
+.templateSlider{
+  width: 70%;
+  display: flex;
+  overflow-x: scroll;
+  margin: 5% 0;
+  padding: 4% 0;
+  align-items: center;
+  border-radius: 45px 0px 0 45px;
+  background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
+  margin-left: 10%;
+  height: 397px;
+  
 }
 
+.templateSlider::-webkit-scrollbar {
+  display: none;
+} 
+
+
+.sliderImg {
+  margin-right: 3%;
+  max-width: 150px;}
+
+.sone {
+  width: 50%;
+  margin-left: 10%;
+}
 .templateText {
-width: 15.85%;
-margin-left: 8.41%;
+  padding: 5%  0;
+  padding-left: 7%;
+  width: 19%;
+}
+
+.templateText h4 {
+  width: 100%;
+  font-size: 2.5vw;
+  margin-bottom: 3%
+}
+
+.templateText p {
+  width: 100%;
+  font-size: 1.2vw;
+  margin-left: 4%;
 }
 
 .textCheck {
   display: flex;
-  margin-top: 20px;
-  
-}
-.templateText h4{
-  font-size: 2vw;
-}
-
-.check {
+  align-items: space-between;
+  margin-top: 7%;
 }
 
 
-.textCheck p{
-  font-size: 2vh;
-}
 
-.templateSlider {
-  display: flex;
-  align-items: center;
-  background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
-  background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
-  width: 70%;
-  height: 777px;
-  border-radius: 20px 0px 0px 20px;
-  overflow-x: scroll;
-}
-
-
-.sliderImg{
-width: 100%;
-}
-
-.sone {
-margin-left: 9%;
-}
-
-.templateSlider::-webkit-scrollbar {
-  background-color: #D7CFFA;
-  border-radius:30px;
-  height: 10px;
-}
-
-.templateSlider::-webkit-scrollbar-thumb {
-  background: darkblue; 
-  width: 5%;
-  border-radius: 10px;
-}
 
 
 
@@ -509,7 +524,6 @@ margin-left: 9%;
 .brands {
   display: flex;
   align-items: center;
-  
   height: 120px;
   width: 100%;
   margin-top: 79px;
@@ -548,7 +562,52 @@ margin-left: 9%;
 
 
 
-  #PAGE AGENCE 
+  
+
+  .introAgence{
+    margin-top: 80px;
+    background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
+background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
+  }
+  .introAgenceContainer{
+    display: flex;
+    justify-content: space-around;
+  }
+  .introAImg{
+    height: fit-content;
+    width: 35%;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 5.5%;
+  }
+  .introAgenceText{
+    height: auto;
+    width: 36%;
+    padding-top: 7%;
+    padding-right: 15%;
+    padding-left: 4%;
+  }
+  .introAgenceTitle{
+    font-size: 2.3vw;
+    padding-right: 0%;
+    white-space: nowrap;
+  }
+  #txtIntroAgence{
+    padding-top: 4%;
+    font-weight: 500;
+  }
+  .introAgenceLines{
+    display: flex;
+    padding-top: 5%;
+  }
+  .line{
+    display: flex;
+  }
+  .line p{
+    padding-left: 5px;
+  }
+
+
   .team {
     margin: 70px 10% 0 10%;
     display: flex;
