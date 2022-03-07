@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/madImpact-task1/static/css/main.9295cdfa.css",
-    "main.js": "/madImpact-task1/static/js/main.f7ebca03.js",
+    "main.css": "/madImpact-task1/static/css/main.52045eee.css",
+    "main.js": "/madImpact-task1/static/js/main.b41ecdba.js",
     "static/media/introSmall.png": "/madImpact-task1/static/media/introSmall.ee94e003fa64bb417e68.png",
     "static/media/illustrationSmall.png": "/madImpact-task1/static/media/illustrationSmall.067fab8dfe556e350ef3.png",
     "static/media/erp.png": "/madImpact-task1/static/media/erp.851055b6eb0b5911361b.png",
@@ -16,6 +16,7 @@
     "static/media/tel2.png": "/madImpact-task1/static/media/tel2.b5798afc621e1957214b.png",
     "static/media/guyLittle.png": "/madImpact-task1/static/media/guyLittle.e0b26b840fedf0450c1c.png",
     "static/media/tab.png": "/madImpact-task1/static/media/tab.6c0e7163635da9ca8788.png",
+    "static/media/world-bg.png": "/madImpact-task1/static/media/world-bg.4fcd9ab5e31d959f6ced.png",
     "static/media/refref.png": "/madImpact-task1/static/media/refref.7ac614ac808694c1a4f3.png",
     "static/media/circles.png": "/madImpact-task1/static/media/circles.deb5e298b1bef89a9b08.png",
     "static/media/avataaars4.png": "/madImpact-task1/static/media/avataaars4.c355b00d7b428cb563fe.png",
@@ -42,11 +43,11 @@
     "static/media/arbre.png": "/madImpact-task1/static/media/arbre.02a957bc86057a3d6d97.png",
     "static/media/b4.png": "/madImpact-task1/static/media/b4.287c6fb672f2b385dca4.png",
     "index.html": "/madImpact-task1/index.html",
-    "main.9295cdfa.css.map": "/madImpact-task1/static/css/main.9295cdfa.css.map",
-    "main.f7ebca03.js.map": "/madImpact-task1/static/js/main.f7ebca03.js.map"
+    "main.52045eee.css.map": "/madImpact-task1/static/css/main.52045eee.css.map",
+    "main.b41ecdba.js.map": "/madImpact-task1/static/js/main.b41ecdba.js.map"
   },
   "entrypoints": [
-    "static/css/main.9295cdfa.css",
-    "static/js/main.f7ebca03.js"
+    "static/css/main.52045eee.css",
+    "static/js/main.b41ecdba.js"
   ]
 }
