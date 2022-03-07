@@ -323,7 +323,7 @@ width: 100%;
 .circles {
   position: relative;
   width: 95%;
-  margin: auto;
+  margin-left: 7%;
 }
 
 .methodContainer {
@@ -386,7 +386,7 @@ left: 30%;
 top: 150px;
 }
 .item3 {
-  left: 52%;
+  left: 57%;
   bottom: 150px;
 }
 
@@ -558,12 +558,79 @@ span {
   }
 
 
+  /*reputation styling*/
+ .reputation {
+   min-height: 100%;
+   height: 680px;
+   background-image: url("./images/world-bg.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+  display: flex;
+  align-items: center;
+ 
+}
 
+.wrapper {
+  overflow-x: scroll;
+  animation: fadein 2s ease-in alternate ;
+  animation-fill-mode: forwards;  
 
+}
 
-
+.wrapper::-webkit-scrollbar {
+  display: none;
   
+}
 
+  .messages-slider {
+    display: flex;
+    justify-content: space-between;
+    width: 150%;
+    vertical-align: middle;
+    
+  }
+  .message {
+    border: 2px solid #FCC42E;
+    border-radius: 45px;
+    font-size: 0.9vw;
+    width: 70%;  
+    height: 80%;
+    background-color: white;
+    
+  }
+
+  .message p {
+    padding: 15%;
+    font-weight: 500;
+
+  }
+  .message-avatar-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 20%;
+  }
+
+  .av {
+display: flex;
+justify-content: center; 
+margin-top: 1%;
+margin-bottom: 1%;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeout{
+  from { opacity: 1; }
+  to { opacity: 0.5; }
+}
+
+  /*page d'agence*/
   .introAgence{
     margin-top: 80px;
     background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
@@ -774,7 +841,7 @@ font-size: 2.4vw;
 
 .partOne {
   display: flex;
-  margin-top: 196px;
+  margin-top: 4%;
 }
 
 .agencyText {
@@ -803,9 +870,8 @@ font-size: 2.4vw;
 
 .agencyMenu {
   display: flex;
-  margin-right: 7.29%;
+   margin-right: 7.29%;
    width: 53.28%;
-   height: 744px;
 }
 
 
@@ -819,12 +885,11 @@ font-size: 2.4vw;
 }
 
 .menuBtn{
-  height: 160px;
-  font-size: 2vw;
+  font-size: 1.8vw;
+  height: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.5vw;
   background-color: white;
   border-left: 4px solid #D7CFFA;
 }
@@ -836,10 +901,14 @@ font-size: 2.4vw;
 
 .oimg {
   margin-right: 10px;
+  width: 30%;
 }
 
 .iilg {
   margin-left: 31px;
+}
+.innerImg {
+  width: 40%;
 }
 
 .menuBtn:focus {
@@ -854,43 +923,28 @@ font-size: 2.4vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+padding:10% 0
 }
 .innerP {
-  margin-bottom: 180px;
   width:  54.62%;
-  margin-top: 80px;
   font-size: 1.2vw;
+  margin-bottom:10%;
+  font-weight: 500;
+
 }
 
-#bg , .dude   {
-  width: 54.62%;
-  max-height: 260px;
+.dude   {
+  width: 30%;
+  margin-top: 5%;
+}
+
+#bg {
+  width: 50%;
 }
 
 .specialInner {
   font-size: 1vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*page realisations*/
 
 .nosRealisations {
@@ -974,9 +1028,10 @@ font-size: 2.4vw;
 
 .contactBtn {
  height: 56px;
- width:  21.79%;
+ width:  29%;
  font-size: 1.4vw;
  margin-top: 90px;
+ white-space: nowrap;
 }
 
 
@@ -985,7 +1040,6 @@ font-size: 2.4vw;
 .footer {
   height: 100px;
   width: 100%;
-  margin-top: ;
   background: transparent linear-gradient(180deg, #F5EBFE 0%, var(--unnamed-color-d9cefe) 100%) 0% 0% no-repeat padding-box;
   background: transparent linear-gradient(180deg, #F5EBFE 0%, #D9CEFE 100%) 0% 0% no-repeat padding-box;
    opacity: 1;

@@ -71,7 +71,7 @@ const Agency = () => {
                                     Une force sur laquelle nous comptons pour 
                                     établir des stratégies puissantes et concevoir 
                                     des outils performants.</p>
-                                <img src={missionImg} alt="" />
+                                <img src={missionImg} alt="" className='innerImg' />
                             </div>
                         }
                         {clicked === "vision" &&
